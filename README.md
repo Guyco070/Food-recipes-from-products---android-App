@@ -4,7 +4,7 @@
 
 * End to end video will be uploaded soon.
 
-*Notes:
+* Notes:
 1) Self-learning without prior knowledge of Android Studio / Java / XML.
 2) The app made before advanced OOP course (Java) and DB course (Sql and XML).
 3) The code includes notes containing code from previous versions as well as some examples of local data entry / from the database / to the database.
@@ -22,7 +22,7 @@ Detailed description:
 - Selecting a product will put it in the list and clicking on the "-" mark in the product corner in the list will remove it and adjust the search list to the new list of selected ingredients.
 
 2) Side menu:
-- filtering -
+- - filtering:
 - "Show products by basic product only" - allows to find recipes by ingredients that require for the recipe (ingredients marked with * in the recipe). For example - bread and minced meat will allow the presentation of a hamburger recipe even though other ingredients are missing (tomato and lettuce).
 - "Allow a number of deficiencies" - Allows to find recipes by a smaller number of ingredients according to the user's choice. For example - choosing one lack, bread and minced meat and lettuce will allow the presentation of a recipe for a hamburger even though missing one ingredient (lettuce).
 - "Filter by Chef" - Allows you to filter recipes by chef's name.
@@ -42,7 +42,7 @@ Detailed description:
 
 * סרטון End to end יועלה בקרוב.
 
-*הערות:
+* הערות:
 1) למידה עצמית ללא ידע קודם ב - Android studio / Java / XML.
 2) האפליקציה נכתבה לפ י ביצוע קורס תכנות מונחה עצמים מתקדם (Java) וקורס בסיסי נתונים (Sql and XML).
 3) האפליקצייה כוללת הערות בהם קוד של גרסאות קודמות וגם כמה דוגמאות להכנסת נתונים מקומית / ממסד הנתונים / למסד הנתונים.
