@@ -9,7 +9,7 @@
 * Notes:
   1) Self-learning without prior knowledge of Android Studio / FireBase / Java / XML.
   2) The app made before advanced OOP course (Java) and DB course (Sql and XML).
-  3) The code includes notes containing code from previous versions as well as some examples of local data entry / from the database / to the database.
+  3) The code includes notes containing code from previous versions as well as some examples of local data entry / from/to the database.
   4) The database is not full, so some of the images are white (temporary) and some of the recipes are repeated to simulate a fuller database - will be corrected soon.
   5) The project was uploaded via GitKraken.
 
