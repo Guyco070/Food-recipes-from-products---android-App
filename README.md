@@ -4,7 +4,7 @@
 
 * The application is intended for use in the Hebrew language.
 
-* End to end video will be uploaded soon.
+* An end to end video will be uploaded soon.
 
 * Notes:
   1) Self-learning without prior knowledge of Android Studio / FireBase / Java / XML.
