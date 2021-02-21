@@ -1,5 +1,7 @@
 # Food-recipes-from-products - (A surprise meal) "ארוחה בהפתעה"
 
+* The code was written using Android studio workspace, FireBase database and Java, XML languages. 
+
 * The application is intended for use in the Hebrew language.
 
 * End to end video will be uploaded soon.
@@ -38,6 +40,8 @@ Detailed description:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* הקוד נכתב בשימוש בסביבת העבודה Android Studio, במאגר הנתונים של FireBase ובשפות - Java, XML.
+* 
 * האפליקציה נועדה לשימוש בשפה העברית. 
 
 * סרטון End to end יועלה בקרוב.
