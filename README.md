@@ -4,7 +4,7 @@
 
 * The application is intended for use in the Hebrew language.
 
-* An end to end video will be uploaded soon.
+* Link to the end to end video - https://drive.google.com/file/d/19Vdt2qTgr952Gfri7tZY9gCDi6OTXrMI/view?usp=sharing.
 
 * Notes:
   1) Self-learning without prior knowledge of Android Studio / FireBase / Java / XML.
@@ -44,7 +44,7 @@ Detailed description:
 
 * האפליקציה נועדה לשימוש בשפה העברית. 
 
-* סרטון End to end יועלה בקרוב.
+* קישור לסרטון End to end - https://drive.google.com/file/d/19Vdt2qTgr952Gfri7tZY9gCDi6OTXrMI/view?usp=sharing.
 
 * הערות:
   1) למידה עצמית ללא ידע קודם ב - Android studio / FireBase / Java / XML.
