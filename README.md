@@ -22,15 +22,15 @@ Detailed description:
 - Selecting a product will put it in the list and clicking on the "-" mark in the product corner in the list will remove it and adjust the search list to the new list of selected ingredients.
 
 2) Side menu:
-- - filtering:
-- "Show products by basic product only" - allows to find recipes by ingredients that require for the recipe (ingredients marked with * in the recipe). For example - bread and minced meat will allow the presentation of a hamburger recipe even though other ingredients are missing (tomato and lettuce).
-- "Allow a number of deficiencies" - Allows to find recipes by a smaller number of ingredients according to the user's choice. For example - choosing one lack, bread and minced meat and lettuce will allow the presentation of a recipe for a hamburger even though missing one ingredient (lettuce).
-- "Filter by Chef" - Allows you to filter recipes by chef's name.
-- "Filter by calories" - allows filtering recipes by a maximum number of calories.
+- filtering:
+  - "Show products by basic product only" - allows to find recipes by ingredients that require for the recipe (ingredients marked with * in the recipe). For example - bread and minced meat will allow the presentation of a hamburger recipe even though other ingredients are missing (tomato and lettuce).
+  - "Allow a number of deficiencies" - Allows to find recipes by a smaller number of ingredients according to the user's choice. For example - choosing one lack, bread and minced meat and lettuce will allow the presentation of a recipe for a hamburger even though missing one ingredient (lettuce).
+  - "Filter by Chef" - Allows you to filter recipes by chef's name.
+  - "Filter by calories" - allows filtering recipes by a maximum number of calories.
 
-- Personal customization -
-- "Favorites" - Displays the recipes marked as favorites.
-- "Stopwatch / Timer" - Activating the clock when it is reset will activate the stopwatch and activating the clock after entering a value (numeric only) in the text box will activate a timer according to the radio button marked (hours / minutes / seconds).
+- Personal customization:
+  - "Favorites" - Displays the recipes marked as favorites.
+  - "Stopwatch / Timer" - Activating the clock when it is reset will activate the stopwatch and activating the clock after entering a value (numeric only) in the text box will activate a timer according to the radio button marked (hours / minutes / seconds).
 
 3) Insertion/removal to/from favorites will be done by clicking on the star at the right corner at the preview of the recipe.
 
@@ -60,15 +60,15 @@ Detailed description:
 - בחירה במוצר תכניס אותו לרשימה ולחיצה על סימ ה- "-" בפינת המוצר ברשימה תסיר אותו ותתאים את רשימת החיפוש לרשימה החדש של המרכיבים שנבחרו.
 
 2) תפריט צידי:
-- סינון -
-- "הצג מוצרים לפי מוצר בסיסי בלבד" - מאפשר מציאת מתכונים לפי מרכיבים אשר חייב אותם עבור המתכון (מרכיבים המסומנים ב-* במתכון). לדוגמא - לחם ובשר טחון יאפשרו הצגת מתכון להמבורגר למרות שחסרים מרכיבים אחרים (עגבנייה וחסה).
-- "אפשר מספר חוסרים" -  מאפשר מציאת מוצרים לפי מספר מרכיבים מצומצם יותר על פי בחירת המשתמש. לדוגמא - בבחירת חוסר 1, לחם ובשר טחון וחסה יאפשרו הצגת מתכון להמבורגר למרות שחסר מרכיב 1 (חסה).
-- "סנן לפי שף" - מאפשר סינון מתכונים לפי שם שף.
-- "סנן לפי קלוריות" - מאפשר סינון מתכונים לפי מספר קלוריות מקסימאלי.
+- סינון:
+  - "הצג מוצרים לפי מוצר בסיסי בלבד" - מאפשר מציאת מתכונים לפי מרכיבים אשר חייב אותם עבור המתכון (מרכיבים המסומנים ב-* במתכון). לדוגמא - לחם ובשר טחון יאפשרו הצגת מתכון להמבורגר למרות שחסרים מרכיבים אחרים (עגבנייה וחסה).
+  - "אפשר מספר חוסרים" -  מאפשר מציאת מוצרים לפי מספר מרכיבים מצומצם יותר על פי בחירת המשתמש. לדוגמא - בבחירת חוסר 1, לחם ובשר טחון וחסה יאפשרו הצגת מתכון להמבורגר למרות שחסר מרכיב 1 (חסה).
+  - "סנן לפי שף" - מאפשר סינון מתכונים לפי שם שף.
+  - "סנן לפי קלוריות" - מאפשר סינון מתכונים לפי מספר קלוריות מקסימאלי.
 
-- התאמה אישית -
-- "מועדפים" - הצגת המתכונים המסומנים כמועדפים.
-- "סטופר/טיימר" - הפעלת השעון כאשר הוא מאופס תפעיל סטופר והפעלת השעון לאחר הכנסת ערך (רק מספרי) בתיבת הטקסט תפעיל טיימר בהתאם לכפתור הרדיו המסומן (שעות / דקות / שניות).
+- התאמה אישית:
+  - "מועדפים" - הצגת המתכונים המסומנים כמועדפים.
+  - "סטופר/טיימר" - הפעלת השעון כאשר הוא מאופס תפעיל סטופר והפעלת השעון לאחר הכנסת ערך (רק מספרי) בתיבת הטקסט תפעיל טיימר בהתאם לכפתור הרדיו המסומן (שעות / דקות / שניות).
 
 3) הכנסה/הסרה למועדפים/מהמועדפים תבוצע באמצעות לחיצה על הכוכב הנמצא בפינה הימנית בהצגה המוקדמת של המתכון.
 
