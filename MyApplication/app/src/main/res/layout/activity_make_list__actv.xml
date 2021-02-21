@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_MakeList_ACTV"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MakeList_ACTV">
+
+    <LinearLayout
+        android:id="@+id/activity_MakeList_ACTV_LL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <AutoCompleteTextView
+            android:id="@+id/actv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionThreshold="1"
+            android:hint="@string/enter_prod" />
+
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:id="@+id/choosens_flex_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:alignContent="stretch"
+            app:alignItems="stretch"
+            app:flexWrap="wrap">
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <ScrollView
+            android:id="@+id/recipe_preview_scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/recipe_preview_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+        </ScrollView>
+
+        <Toolbar
+            android:id="@+id/drwer_tollbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:popupTheme="@style/Theme.AppCompat.Light"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:foregroundGravity="right">
+
+        <Switch
+            android:id="@+id/switch_filter_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:text="  הצג לפי מוצרי בסיס בלבד" />
+
+        <Switch
+            android:id="@+id/switch_filter_miss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:text="  אפשר מספר חוסרים" />
+
+        <Switch
+            android:id="@+id/switch_filter_chef"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:text="  סנן לפי שף" />
+
+        <Switch
+            android:id="@+id/switch_filter_calories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:text="  סנן לפי קלוריות מקסימליות" />
+
+        <item
+            android:id="@+id/filter_base"
+            android:icon="@drawable/ic_bybasic"
+            android:title="הצג לפי מוצרי בסיס בלבד" />
+
+        <item
+            android:id="@+id/filter_miss"
+            android:icon="@drawable/ic_missicon"
+            android:title="אפשר מספר חוסרים" />
+
+        <item
+            android:id="@+id/filter_chef"
+            android:icon="@drawable/ic_cheficon"
+            android:title="סנן לפי שף" />
+
+        <item
+            android:id="@+id/filter_calories"
+            android:icon="@drawable/ic_calicon"
+            android:title="סנן לפי קלוריות מקסימליות" />
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

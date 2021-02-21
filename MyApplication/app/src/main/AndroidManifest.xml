@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.G.myapplication">
+
+    <uses-sdk tools:overrideLibrary="com.google.firebase.iid" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pancake"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:textColor="#FFFFFF"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".Favorites"
+            android:label="@string/title_activity_favorites"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Timer"
+            android:screenOrientation="sensorPortrait"
+            android:showOnLockScreen="true"
+            tools:targetApi="jelly_bean_mr1" />
+        <activity
+            android:name=".PopupRview"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MakeList" />
+        <activity
+            android:name=".MakeList_ACTV"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:id="@+id/switch1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/down"
+            android:layout_width="23dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="13dp"
+            android:isScrollContainer="false"
+            android:text=""
+            app:icon="@android:drawable/arrow_down_float"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconSize="10dp" />
+
+        <TextView
+            android:id="@+id/missnum_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="4dp"
+            android:gravity="clip_horizontal"
+            android:paddingTop="13dp"
+            android:text="0"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/up"
+            android:layout_width="23dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="13dp"
+            android:text=""
+            app:icon="@android:drawable/arrow_up_float"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconSize="10dp" />
+    </TableRow>
+</LinearLayout>

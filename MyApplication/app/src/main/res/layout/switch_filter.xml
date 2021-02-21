@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    android:id="@+id/recipe_preview_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Switch
+        android:id="@+id/switch_basic_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="  הצג לפי מוצרי בסיס בלבד" />
+
+    <Switch
+        android:id="@+id/switch_filter_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="false"
+        android:layoutDirection="rtl"
+        android:text="  הצג לפי מוצרי בסיס בלבד" />
+    <Switch
+        android:id="@+id/switch_filter_miss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  אפשר מספר חוסרים"
+        android:layoutDirection="rtl"
+        />
+    <Switch
+        android:id="@+id/switch_filter_chef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  סנן לפי שף"
+        android:layoutDirection="rtl"
+        />
+
+    <Switch
+        android:id="@+id/switch_filter_calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="  סנן לפי קלוריות מקסימליות" />
+</LinearLayout>

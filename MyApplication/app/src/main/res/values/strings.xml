@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ארוחה בהפתעה</string>
+    <string name="enter_prod">הכנס מוצר</string>
+    <string name="open">פתח</string>
+    <string name="close">סגור</string>
+    <string name="filter_basis">הצג לפי מוצרי בסיס בלבד</string>
+    <string name="title_activity_favorites">מועדפים</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

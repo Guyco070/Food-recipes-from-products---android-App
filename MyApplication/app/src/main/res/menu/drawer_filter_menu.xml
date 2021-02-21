@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_make_list__actv">
+    <group android:id="@+id/grp1">
+        <item
+            android:enabled="false"
+            android:title="              סינון" />
+    </group>
+    <item
+        android:id="@+id/filter_base"
+        android:actionLayout="@layout/switch_filter"
+        android:icon="@drawable/ic_bybasic"
+        android:title="" />
+    <item
+        android:id="@+id/filter_miss"
+        android:actionLayout="@layout/switch_miss_layout"
+        android:icon="@drawable/ic_missicon"
+        android:title="אפשר מספר חוסרים" />
+    <item
+        android:id="@+id/filter_chef"
+        android:actionLayout="@layout/edit_text_chef"
+        android:icon="@drawable/ic_cheficon"
+        android:title="סנן לפי שף" />
+    <item
+        android:id="@+id/filter_calories"
+        android:actionLayout="@layout/insertlayout_basic"
+        android:icon="@drawable/ic_calicon"
+        android:title="סנן לפי קלוריות" />
+
+    <group android:id="@+id/grp2">
+        <item
+            android:enabled="false"
+            android:title="              התאמה אישית" />
+    </group>
+    <item
+        android:id="@+id/favorites"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        android:title="מועדפים" />
+    <item
+        android:id="@+id/timer"
+        android:icon="@drawable/ic_timer_black_24dp"
+        android:title="סטופר/טיימר" />
+</menu>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_MakeList_ACTV_Drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pop_bg"
+
+    android:orientation="vertical"
+    tools:context=".MakeList_ACTV">
+
+    <LinearLayout
+        android:id="@+id/activity_MakeList_ACTV_LL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/drwer_tollbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTop"
+            android:elevation="4dp"
+            android:popupTheme="@style/Theme.AppCompat.Light"
+            android:textColor="#FFFFFF"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+
+        <RelativeLayout
+            android:id="@+id/activity_MakeList_ACTV_RL"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/actv"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="9dp"
+                android:layout_toLeftOf="@+id/filter_button"
+                android:layout_toEndOf="@+id/filter_button"
+                android:completionThreshold="1"
+                android:hint="@string/enter_prod"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/filter_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="סנן"
+                android:visibility="gone"
+                app:icon="@drawable/ic_filter_list" />
+        </RelativeLayout>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:id="@+id/choosens_flex_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:alignContent="stretch"
+            app:alignItems="stretch"
+            app:flexWrap="wrap">
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <ScrollView
+            android:id="@+id/recipe_preview_scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/recipe_preview_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"></LinearLayout>
+        </ScrollView>
+
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:foregroundGravity="right"
+        app:menu="@menu/drawer_filter_menu">
+
+
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

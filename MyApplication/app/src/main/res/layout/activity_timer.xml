@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Timer">
+
+    <EditText
+        android:id="@+id/minutes_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:hint="  דקות  "
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/chronometer"
+        app:layout_constraintEnd_toEndOf="@+id/chronometer"
+        app:layout_constraintStart_toStartOf="@+id/chronometer" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="188dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="42dp"
+        app:layout_constraintBottom_toTopOf="@+id/pause_but"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/play_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toStartOf="@+id/pause_but"
+        app:layout_constraintTop_toTopOf="@+id/pause_but"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pause_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="164dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/chronometer"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="@+id/chronometer"
+        app:srcCompat="@android:drawable/ic_media_pause"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/stop_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:clickable="true"
+        app:layout_constraintStart_toEndOf="@+id/pause_but"
+        app:layout_constraintTop_toTopOf="@+id/pause_but"
+        app:srcCompat="@android:drawable/checkbox_off_background" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/minutes_editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/hours_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="4dp"
+            android:background="@drawable/choose_but_border"
+            android:text=" שעות   "
+            android:textDirection="anyRtl"
+            app:layout_constraintStart_toEndOf="@+id/minutes_choose"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <RadioButton
+            android:id="@+id/minutes_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="4dp"
+            android:background="@drawable/choose_but_border"
+            android:checked="true"
+            android:text=" דקות   "
+            android:textDirection="rtl"
+            app:layout_constraintEnd_toEndOf="@+id/minutes_editText"
+            app:layout_constraintStart_toStartOf="@+id/minutes_editText"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <RadioButton
+            android:id="@+id/seconds_choose"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="4dp"
+            android:background="@drawable/choose_but_border"
+            android:text=" שניות   "
+            android:textDirection="rtl"
+            app:layout_constraintEnd_toStartOf="@+id/minutes_choose"
+            tools:layout_editor_absoluteY="33dp" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
