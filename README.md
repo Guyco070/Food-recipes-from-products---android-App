@@ -7,11 +7,11 @@
 * End to end video will be uploaded soon.
 
 * Notes:
-1) Self-learning without prior knowledge of Android Studio / Java / XML.
-2) The app made before advanced OOP course (Java) and DB course (Sql and XML).
-3) The code includes notes containing code from previous versions as well as some examples of local data entry / from the database / to the database.
-4) The database is not full, so some of the images are white (temporary) and some of the recipes are repeated to simulate a fuller database - will be corrected soon.
-5) The project was uploaded via GitKraken.
+  1) Self-learning without prior knowledge of Android Studio / FireBase / Java / XML.
+  2) The app made before advanced OOP course (Java) and DB course (Sql and XML).
+  3) The code includes notes containing code from previous versions as well as some examples of local data entry / from the database / to the database.
+  4) The database is not full, so some of the images are white (temporary) and some of the recipes are repeated to simulate a fuller database - will be corrected soon.
+  5) The project was uploaded via GitKraken.
 
 General description of the application:
 The user creates a list of food products which can search for in the database, the system will display the possible recipes for preparation using the same food products or some according to the user's request and even save desired recipes in favorites.
@@ -41,17 +41,17 @@ Detailed description:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * הקוד נכתב בשימוש בסביבת העבודה Android Studio, במאגר הנתונים של FireBase ובשפות - Java, XML.
-* 
+
 * האפליקציה נועדה לשימוש בשפה העברית. 
 
 * סרטון End to end יועלה בקרוב.
 
 * הערות:
-1) למידה עצמית ללא ידע קודם ב - Android studio / Java / XML.
-2) האפליקציה נכתבה לפ י ביצוע קורס תכנות מונחה עצמים מתקדם (Java) וקורס בסיסי נתונים (Sql and XML).
-3) האפליקצייה כוללת הערות בהם קוד של גרסאות קודמות וגם כמה דוגמאות להכנסת נתונים מקומית / ממסד הנתונים / למסד הנתונים.
-4) מאגר הנתונים אינו מלא ולכן חלק מהתמונות הינן תמונה לבנה (זמנית) וחלק מהמתכונים חוזרים על עצמם לשם הדמייה של מאגר נתונים מלא יותר - יתוקן בהקדם.
-5) הקוד הועלה באמצעות GitKraken.
+  1) למידה עצמית ללא ידע קודם ב - Android studio / FireBase / Java / XML.
+  2) האפליקציה נכתבה לפ י ביצוע קורס תכנות מונחה עצמים מתקדם (Java) וקורס בסיסי נתונים (Sql and XML).
+  3) האפליקצייה כוללת הערות בהם קוד של גרסאות קודמות וגם כמה דוגמאות להכנסת נתונים מקומית / ממסד הנתונים / למסד הנתונים.
+  4) מאגר הנתונים אינו מלא ולכן חלק מהתמונות הינן תמונה לבנה (זמנית) וחלק מהמתכונים חוזרים על עצמם לשם הדמייה של מאגר נתונים מלא יותר - יתוקן בהקדם.
+  5) הקוד הועלה באמצעות GitKraken.
 
 תיאור כללי של האפליקציה:
 המשתמש יוצר רשימה של מרכיבים אשר אותם הוא יכול לחפש במאגר הנתונים, המערכת תציג את המתכונים האפשריים להכנה באמצעות אותם מרכיבים או חלקם בהתאם לבקשת המשתמש ואף לשמור מתכונים רצויים במועדפים.
